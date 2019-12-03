@@ -377,7 +377,7 @@
 #work .work_box .left_box {
     float: left;
     width: 600px;
-    height: 400px;
+    height: 345px;
     background-color: #ddd;
     border-radius: 10px;
 }
@@ -389,7 +389,7 @@
 #work .work_box .right_box {
     float: right;
     width: 600px;
-    height: 400px;
+    height: 345px;
 }
 
 #work .work_box .right_box span {
