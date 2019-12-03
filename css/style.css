@@ -41,12 +41,12 @@
 }
 
 #bottom p {
-    float: left;
+    text-align: center;
     font-size: 12px;
     line-height: 30px;
-    padding-left: 30px;
     color: #3c4042;
     opacity: 0.8;
+    font-weight: bold;
 }
 
 #bottom .sns {
@@ -1050,16 +1050,6 @@
 
     #top p {
         display: none;
-    }
-
-    #bottom p {
-        display: none;
-    }
-
-    #bottom .sns {
-        float: none;
-        text-align: center;
-        padding: 0;
     }
 
     #left {
