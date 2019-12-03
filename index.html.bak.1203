@@ -6,7 +6,6 @@
     <meta name="author" content="임태형">
     <meta name="description" content="임태형의 포트폴리오 사이트">
     <meta name="keywords" content="Backend 개발자, WEB, PHP, Magento, HTML5, CSS, Mysql, Maria">
-    <meta property="og:image" content="img/portfolio.PNG" />
     <title>임태형의 PORTFOLIO</title>
     
     <!-- style -->
@@ -22,20 +21,36 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,700,900" rel="stylesheet">
     
     <!-- favicon -->
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon-16.ico">
     
     
     <!--[if IE 8]>
     <script type="text/javascript">
-        alert("Sorry You need to Upgrade");
+        alert("Please Upgrade Your BROWSER !");
     </script>
     <![endif]-->
 </head>
 <body>
+   <!-- fixed 영역 -->
+    <div id="top">
+        <h1 class="name">
+            <a href="#">TAEHYUNG LIM</a>
+        </h1>
+        <p>lth10929@naver.com</p>
+    </div>
 
     <div id="bottom">
         <p>Copyright @ 2019 by TAEHYUNG LIM All Right Reserved</p>
+        <div class="sns">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
+
+    <div id="left"></div>
+    <div id="right"></div>
+    <!-- //fixed 영역 -->
 
     <!-- intro -->
     <div id="intro">
@@ -48,7 +63,6 @@
             <div class="mouse"></div>
             <span>SCROLL DOWN</span>
         </div>
-        <img src="img/portfolio.PNG" alt="portfolio img" style="display:none;">
     </div>
     <!-- //intro -->
     
@@ -209,45 +223,53 @@
         <div class="container">
             <h3>SKILLS</h3>
             <div class="skill_box">
-                <ul data-aos="fade-up" data-aos-duration="1000">
-                    <li>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="1000">
                         <span>PHP</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1300">
                         <span>MAGENTO</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1600">
                         <span>MAGENTO2</span>
                     </li>
-                    <li>
-                        <span>Linux</span>
-                    </li>
                 </ul>
-                <ul  data-aos="fade-up" data-aos-duration="1500">
-                    <li>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="1900">
                         <span>JAVASCRIPT</span>
                     </li>
-                    <li>
+                    <li class="last" data-aos="fade-up" data-aos-duration="2200">
                         <span>jQuery</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="2500">
                         <span>JAVA</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="2800">
                         <span>SPRING</span>
                     </li>
                 </ul>
-                <ul  data-aos="fade-up" data-aos-duration="2000">
-                    <li>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="1900">
                         <span>Mysql</span>
                     </li>
-                    <li>
+                    <li class="last" data-aos="fade-up" data-aos-duration="2200">
                         <span>MariaDB</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="2500">
+                        <span>Linux</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="2800">
+                        <span>Apache</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="3100">
+                        <span>Node.js</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="3400">
                         <span>HTML5</span>
                     </li>
-                    <li class="last">
+                    <li class="last" data-aos="fade-up" data-aos-duration="3700">
                         <span>CSS</span>
                     </li>
                 </ul>
@@ -255,21 +277,15 @@
         </div>
     </div>
     <!-- //skill -->
-
-   <!-- contact -->
-   <div id="footer">
-       <div class="container">
-           <h3>Contact</h3>
-           <div class="address_box">
-               <ul>
-                   <li><span>Tel   :</span> 010-9384-7235</li>
-                   <li><span>Email :</span> lth10929@naver.com</li>
-                   <li><span>Kakao :</span> lth10929</li>
-               </ul>
-           </div>
-       </div>
-   </div>
-   <!-- //contact -->
+    
+    <div id="footer">
+        <div class="container type-wrap">
+            <div id="typed-strings">
+                <p>Thank you for visiting<br>my portfolio</p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+    </div>
     
     <button id="topBtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
     
